@@ -1,4 +1,5 @@
-#include <windows.h>
+#include <Windows.h>
+#include "HeaderKien.h"
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
 	HDC bitblt_hdc = GetDC(0);
